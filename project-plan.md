@@ -20,12 +20,12 @@ Foundations of CS & AI 2026 · Selected module: Software and Symbolic AI · Subm
 
 | Member (as on class roster) | Role and responsibilities | Relevant strengths and experience | Skills to develop |
 |---|---|---|---|
-| Rawa Rashid | Content lead: keeps explanations accurate and consistent; develops the pilot topic; leads the Study Guide | [fill in] | [fill in] |
-| Batbaatar Undrakhjargal | Submission and logs: project log, personal-log reminders, AI-use records, test bank | [fill in] | [fill in] |
-| Ochirsukh Bilguun | Coordinator: meetings, deadlines, task assignment, peer review, teacher contact | [fill in] | [fill in] |
-| Myagmarsuren Batbileg | Repository and submission lead: GitHub setup, branch and pull-request rules, final submissions | [fill in] | [fill in] |
-| Turmunkh Binderya | Video lead: tutorial scripts, recording, editing | [fill in] | [fill in] |
-| Alsheryani Alia | Visual design lead: slides, diagrams, visual consistency | [fill in] | [fill in] |
+| Rawa Rashid | Content lead: keeps explanations accurate and consistent; develops the pilot topic; leads the Study Guide | Strong research, analytical thinking, academic writing, and ability to explain complex concepts clearly | Technical writing, content organization, and creating engaging educational materials |
+| Batbaatar Undrakhjargal | Submission and logs: project log, personal-log reminders, AI-use records, test bank | Organized, detail-oriented, reliable in maintaining records and tracking progress | Documentation, time management, and developing effective assessment questions |
+| Ochirsukh Bilguun | Coordinator: meetings, deadlines, task assignment, peer review, teacher contact | Communication, teamwork, organization, and problem-solving | Leadership, project management, conflict resolution, and delegation |
+| Myagmarsuren Batbileg | Repository and submission lead: GitHub setup, branch and pull-request rules, final submissions | Technical problem-solving, logical thinking, and familiarity with digital tools | GitHub collaboration, version control, repository management, and troubleshooting |
+| Turmunkh Binderya | Video lead: tutorial scripts, recording, editing | Creativity, communication, storytelling, and attention to detail | Video editing, recording techniques, scriptwriting, and educational video production |
+| Alsheryani Alia | Visual design lead: slides, diagrams, visual consistency | Creativity, visual communication, attention to detail, and presentation skills | Graphic design, diagram creation, slide design, and visual |
 
 **How we use strengths and share the workload.** Each member leads the area that matches their role and strengths, and also owns two or three topic files, so content work is spread evenly. Roles describe responsibility, not exclusive areas: every member studies the whole module, writes content, reviews another member's topic, and must be able to explain the team's core content. Each topic is checked by someone other than its author. The coordinator checks the task list every week and moves work from overloaded members to others.
 
