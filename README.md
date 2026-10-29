@@ -14,7 +14,7 @@ We teach Software and Symbolic AI to **beginners**, including students from non-
 |---|---|---|
 | Rawa Rashid | Content lead | [ruiya7](https://github.com/ruiya7) |
 | Batbaatar Undrakhjargal | Submission and logs | [una987](https://github.com/una987) |
-| Ochirsukh Bilguun | Coordinator | [Ryo-stupid](https://github.com/Ryo-Stupid) |
+| Ochirsukh Bilguun | Coordinator | [Ryo-stupid](https://github.com/Ryo-stupid) |
 | Myagmarsuren Batbileg | Repository and submission lead | [Monark8599](https://github.com/Monark8599) |
 | Turmunkh Binderya | Video lead | [emilysmbb](https://github.com/emilysmbb) |
 | Alsheryani Alia | Visual design lead | [aliaashe](https://github.com/aliaashe) |
