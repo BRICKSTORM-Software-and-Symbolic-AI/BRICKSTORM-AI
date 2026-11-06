@@ -1,10 +1,10 @@
 # 10 Rule-Based and Expert Systems
 
 **Chapter:** Chapter 4: Symbolic AI  
-**Status:** Drafted (V1.0). Waiting for second-member review (see the review record in the submission report).  
-**Proposed owner:** Rawa Rashid (content lead)  
+**Status:** Drafted (V2.0, 3 Nov 2026; pilot topic, V1.0 24 Oct). V2.0 adds conflict resolution, misunderstandings and links to Topics 08, 11 and 13. Waiting for second-member review (see `tasks.md`, T12–T13).  
+**Owner:** Rawa Rashid (content lead). **Reviewer:** see `tasks.md` (T12)  
 **Prerequisites:** Topics 07–09: what Symbolic AI is, what a fact and a rule are, and IF-THEN logic.  
-**Draft note:** Prepared with Claude assistance (AI-use record AI-4). Examples were run and checked with a short program. Humans on the team must still review and be able to explain every part.
+**Draft note:** Prepared with Claude assistance (AI-use records AI-4 and AI-5). Examples were run and checked with a short program. Humans on the team must still review and be able to explain every part.
 
 ## Learning Objectives
 
@@ -67,6 +67,18 @@ Two historic examples:
 | Typical use | Monitoring, configuration | Diagnosis, question answering |
 
 Both methods use the same rules and reach the same proved conclusions. They differ in the direction of search.
+
+**Connections.** Firing a rule is exactly **modus ponens** from Topic 08: IF conditions THEN conclusion, the conditions are true, so the conclusion is true. Backward chaining is a kind of **search** (Topic 11): each rule that could prove a goal is a branch to explore.
+
+### When more than one rule can fire
+
+Sometimes several rules have all their conditions true in the same cycle. The inference engine needs a **conflict-resolution strategy** to choose one. Common strategies:
+
+- **Rule order:** fire the rule that comes first in the knowledge base (used in this topic's examples).
+- **Specificity:** prefer the rule with more conditions, because it fits the situation more exactly.
+- **Recency:** prefer the rule that uses the newest facts.
+
+In the laptop example only one new rule is ready in each cycle, so the choice never matters; in large systems it can change the order of conclusions.
 
 ## Worked Example: A laptop will not start
 
@@ -143,6 +155,12 @@ Use the same rules R1–R7.
 - *Brittle:* outside its narrow subject, or when a rule is missing (Activity question 1), the system fails instead of guessing.
 - *Hard to maintain:* with thousands of rules, adding one rule can conflict with others.
 - *No learning:* it only knows what people wrote. This is different from machine learning, which finds patterns in data.
+
+## Common Misunderstandings
+
+- *"The expert system understands laptops."* It only matches symbols in rules to symbols in working memory. "Charger is faulty" means nothing to it beyond the rules that mention it.
+- *"If the system gives no advice, the facts must be wrong."* Often the **knowledge base** has a gap (Activity question 1).
+- *"Forward chaining uses every fact."* It only uses facts that appear in rule conditions; F1 was never used.
 
 ## Quick Self-Check
 
